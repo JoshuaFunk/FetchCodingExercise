@@ -1,0 +1,48 @@
+.load{
+    color:white;
+    text-align: center;
+    padding:5px;
+}
+
+tr { 
+    background: #abc;
+    padding: 10px; 
+    /* display: flex;
+    flex-direction: row; */
+}
+tr:nth-child(odd) { background: #aac; }
+.listEnd{ 
+    background-color: lightgray !important;
+}
+
+tr > td{
+    padding: 6px;
+    text-align: center;
+}
+
+
+h2{
+    background-color: black;
+    color:white;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+html{
+    background-color: black;
+    /* For eye sensitive people so it doesn't blind on inital load */
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: #268;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
