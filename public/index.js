@@ -40,7 +40,7 @@ class List extends React.Component {
                     //We could handle this later, but I'd rather save the adjustments into state. So I'm not having to everytime it loads. Keeps it more efficent
                     const filtered = result.filter(item => {
                         return item.name ? true : false; //Withou Curly braces would be nice but making the comparison into one statement is better then 2. This will check for both empty and null strings
-                        }); //It looks like bad names are either null or blank. Anything else is ITEM SPACE NUMBER. 
+                        }); //Bad names are either null or blank. Anything else is ITEM SPACE NUMBER. 
                     filtered.sort(function (a, b) {
                         if (a.listId - b.listId != 0) return a.listId - b.listId;
                         else {
